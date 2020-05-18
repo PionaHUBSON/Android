@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.matcar">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="MatCar"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Repairs_Final"></activity>
+        <activity android:name=".Activity_Edit_Car" />
+        <activity android:name=".activity_add_car" />
+        <activity android:name=".Edit_User_Activity" />
+        <activity android:name=".User_Activity" />
+        <activity android:name=".MainActivity2menu" />
+        <activity android:name=".Register" />
+        <activity android:name=".History" />
+        <activity android:name=".YourCars" />
+        <activity android:name=".Overview" />
+        <activity android:name=".Form" />
+        <activity android:name=".Diagnostics" />
+        <activity android:name=".Repairs" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Log_Activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

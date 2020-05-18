@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/all_basket"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginStart="0dp"
+    android:layout_marginTop="6dp"
+    android:layout_marginEnd="0dp"
+    android:layout_marginBottom="6dp"
+    android:background="@drawable/rounded_background_white"
+    app:cardCornerRadius="15dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:layout_margin="0dp"
+        android:background="@drawable/rounded_background_white7"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp">
+
+
+        <TextView
+            android:id="@+id/basket_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Diagnostyka komputerowa"
+            android:textColor="@color/darkgray"
+            android:textSize="22sp"></TextView>
+
+        <TextView
+            android:id="@+id/basket_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Diagnostyka komputerowa"
+            android:textColor="@color/darkgray"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:id="@+id/basket_options"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Diagnostyka komputerowa"
+            android:textColor="@color/darkgray"
+            android:textSize="20sp"></TextView>
+
+        <Button
+            android:id="@+id/basket_delete"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+
+            android:background="@drawable/button_click9"
+
+
+            android:textSize="36sp">
+
+        </Button>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

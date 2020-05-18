@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="330dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+
+    android:paddingBottom="20dp"
+
+    >
+
+    <TextView
+        android:id="@+id/close_popup2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/circlebackground"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="X"
+        android:textColor="@color/black"
+        android:textStyle="bold"></TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/rounded_background"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginEnd="22dp"
+            android:width="370dp"
+
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Czy na pewno chcesz usunąć ten samochód ? "
+            android:textColor="@color/darkgray2"
+            android:textSize="22sp"
+
+
+            ></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <Button
+                android:id="@+id/custom_popup2_delete"
+                android:layout_width="110dp"
+                android:layout_height="42dp"
+
+
+                android:layout_marginRight="20dp"
+                android:background="@drawable/button_click"
+                android:text="OK"
+                android:textColor="@color/darkgray"
+                android:textSize="16sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/custom_popup2_cancel"
+                android:layout_width="110dp"
+                android:layout_height="42dp"
+
+
+                android:background="@drawable/button_click"
+                android:text="ANULUJ"
+                android:textColor="@color/darkgray"
+                android:textSize="16sp">
+
+            </Button>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

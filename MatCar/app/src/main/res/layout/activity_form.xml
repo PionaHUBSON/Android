@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22262a"
+    android:padding="0dp"
+    tools:context=".Form">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginEnd="22dp"
+                    android:width="370dp"
+                    android:background="@drawable/rounded_background_white"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Nie wiesz co dokładnie dzieje się z Twoim samochodem? Nie jesteś specjalistą? Wypełnij ten formularz, opisz problem, a odezwiemy się do Ciebie"
+                    android:textColor="@color/darkgray"
+                    android:textSize="20sp"
+
+
+                    ></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="345dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_background"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Wpisz tytuł usterki"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="4dp">
+
+                    <EditText
+                        android:id="@+id/form_title"
+                        android:layout_width="290dp"
+                        android:layout_height="wrap_content"
+                        android:autoSizeTextType="uniform"
+                        android:background="@drawable/edit_text"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:hint="Tytuł: "
+                        android:lines="1"
+                        android:padding="8dp"
+                        android:textAlignment="center"
+                        android:textSize="18sp"></EditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Opis"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="4dp">
+
+                    <EditText
+                        android:id="@+id/form_description"
+                        android:layout_width="290dp"
+                        android:layout_height="wrap_content"
+                        android:autoSizeTextType="uniform"
+                        android:background="@drawable/edit_text"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:gravity="center_horizontal"
+                        android:hint="Opisz problem związany z twoim samochodem... "
+                        android:lines="6"
+                        android:padding="8dp"
+                        android:textAlignment="center"
+                        android:textSize="18sp"></EditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Zostaw numer telefonu"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="4dp">
+
+                    <EditText
+                        android:id="@+id/form_phone_number"
+                        android:layout_width="290dp"
+                        android:layout_height="wrap_content"
+                        android:autoSizeTextType="uniform"
+                        android:background="@drawable/edit_text"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:hint="Telefon: "
+                        android:lines="1"
+                        android:padding="8dp"
+                        android:phoneNumber="true"
+                        android:textAlignment="center"
+                        android:textSize="18sp"></EditText>
+                </LinearLayout>
+
+
+                <ProgressBar
+                    android:id="@+id/form_progressBar"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center"
+                    android:padding="0dp">
+
+                    <Button
+                        android:id="@+id/form_button_send"
+                        android:layout_width="185dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/button_click3"
+                        android:text="Wyślij"
+                        android:textColor="@color/white"
+                        android:textSize="15sp">
+
+                    </Button>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.navigation.NavigationView
+
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#2660cc"
+        android:textSize="17sp"
+
+        android:theme="@style/Theme.AppCompat.Dialog.Alert"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/drawermenu"
+        app:popupTheme="@style/Theme.AppCompat.DayNight"
+
+        >
+
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>
