@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         sessionManager = new SessionManager(this);
 
         //Go to menu activity
+        //Go to menu activity
         CheckOutPizzas=(Button) findViewById(R.id.CheckOutPizzas);
         CheckOutPizzas.setOnClickListener( new View.OnClickListener()
         {
