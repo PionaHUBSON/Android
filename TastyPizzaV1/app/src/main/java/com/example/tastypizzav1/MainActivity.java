@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
         //Go to menu activity
         //Go to menu activity
+        //Go to menu activity
         CheckOutPizzas=(Button) findViewById(R.id.CheckOutPizzas);
         CheckOutPizzas.setOnClickListener( new View.OnClickListener()
         {
