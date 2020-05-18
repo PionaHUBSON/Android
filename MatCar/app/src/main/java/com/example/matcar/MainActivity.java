@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
         Menu menu = new Menu(mToggle, navigationView, MainActivity.this);
         //END OF MENU
+        //END OF MENU
         imageView = findViewById(R.id.arrow);
         imageView.setOnClickListener(new View.OnClickListener() {
 
