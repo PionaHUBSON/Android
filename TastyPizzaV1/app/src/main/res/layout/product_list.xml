@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ly2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="-4dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/selector2" />
+
+        <TextView
+            android:id="@+id/id_product_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/min_pizza_price_product_list"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="259dp"
+            android:layout_marginTop="-145dp"
+            android:layout_marginEnd="67dp"
+            android:fontFamily="casual"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="75dp"
+            android:layout_height="87dp"
+            android:layout_below="@+id/ingredients_product_list"
+            android:layout_alignStart="@+id/ingredients_product_list"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:background="#B3FFFFFF"
+            android:paddingBottom="25dp" />
+
+        <View
+            android:id="@+id/view7"
+            android:layout_width="75dp"
+            android:layout_height="87dp"
+            android:layout_below="@+id/ingredients_product_list"
+            android:layout_alignStart="@+id/ingredients_product_list"
+            android:layout_marginStart="93dp"
+            android:layout_marginTop="5dp"
+            android:background="#B3FFFFFF"
+            android:paddingBottom="25dp" />
+
+        <View
+            android:id="@+id/view8"
+            android:layout_width="75dp"
+            android:layout_height="87dp"
+            android:layout_below="@+id/ingredients_product_list"
+            android:layout_alignStart="@+id/ingredients_product_list"
+            android:layout_marginStart="176dp"
+            android:layout_marginTop="5dp"
+            android:background="#B3FFFFFF"
+            android:paddingBottom="25dp" />
+
+        <TextView
+            android:id="@+id/name_product_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/view4"
+            android:layout_alignTop="@+id/view4"
+            android:layout_alignEnd="@+id/view4"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="140dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="casual"
+            android:text="TextView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ingredients_product_list"
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name_product_list"
+            android:layout_alignStart="@+id/view4"
+            android:layout_alignEnd="@+id/view4"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="-20dp"
+            android:layout_marginEnd="12dp"
+            android:fontFamily="casual"
+            android:text="TextView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/medium_pizza_price_product_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ingredients_product_list"
+            android:layout_alignStart="@+id/ingredients_product_list"
+            android:layout_marginStart="102dp"
+            android:layout_marginTop="63dp"
+            android:fontFamily="casual"
+            android:gravity="center_horizontal|center_vertical"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/max_pizza_price_product_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ingredients_product_list"
+            android:layout_alignStart="@+id/ingredients_product_list"
+            android:layout_marginStart="185dp"
+            android:layout_marginTop="63dp"
+            android:fontFamily="casual"
+            android:gravity="center_horizontal|center_vertical"
+            android:paddingBottom="25dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/restaurant_id_product_list"
+            android:layout_width="134dp"
+            android:layout_height="33dp"
+            android:layout_below="@+id/max_pizza_price_product_list"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="266dp"
+            android:layout_marginTop="-179dp"
+            android:layout_marginEnd="11dp"
+            android:fontFamily="casual"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/radiogroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:layout_below="@+id/ingredients_product_list"
+            android:layout_alignStart="@+id/ingredients_product_list"
+            android:layout_alignEnd="@+id/ingredients_product_list"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimary2"
+                android:buttonTint="@color/colorPrimary2"
+                android:layout_marginStart="13dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimary2"
+                android:buttonTint="@color/colorPrimary2"
+                android:layout_marginStart="48dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimary2"
+                android:buttonTint="@color/colorPrimary2"
+                android:layout_marginStart="52dp" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/min_pizza_price_product_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ingredients_product_list"
+            android:layout_alignStart="@+id/ingredients_product_list"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="63dp"
+            android:layout_marginEnd="0dp"
+            android:fontFamily="casual"
+            android:gravity="center_horizontal|center_vertical"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_delete"
+            android:layout_width="3dp"
+            android:layout_height="3dp"
+            android:layout_below="@+id/button50"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="1dp"
+            android:layout_toEndOf="@+id/view8"
+            android:background="@drawable/roundedbutton"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="-"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button50"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/ingredients_product_list"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="18dp"
+            android:layout_toEndOf="@+id/view8"
+            android:background="@drawable/selector"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="+"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ingredients_product_list"
+            android:layout_alignStart="@+id/ingredients_product_list"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="10dp"
+            android:text="Small" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ingredients_product_list"
+            android:layout_alignStart="@+id/ingredients_product_list"
+            android:layout_marginStart="104dp"
+            android:layout_marginTop="10dp"
+            android:text="Medium" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ingredients_product_list"
+            android:layout_alignStart="@+id/ingredients_product_list"
+            android:layout_marginStart="196dp"
+            android:layout_marginTop="10dp"
+            android:text="Huge" />
+
+    </RelativeLayout>
+</LinearLayout>
